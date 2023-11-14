@@ -10,34 +10,38 @@ public class Sum_diff_avg {
 		
 		Scanner myobj1 = new Scanner(System.in);
 		System.out.println("Enter number a:");
-		int  a = myobj1.nextInt();
+		double  a = myobj1.nextDouble();
 		Scanner myobj2 = new Scanner(System.in);
 		System.out.println("Enter number b:");
-		int  b = myobj2.nextInt();
-		
-		
+	    double  b = myobj2.nextDouble();
 		
 		
 		
 		// Sum of Values
-		int sum =a+b;
+		double sum =a+b;
 		System.out.println("Sum : " + sum);		
 		
 		
 		// Difference of Values
-		int difference=a-b;
+		double difference=a-b;
 		System.out.println("Difference : " + difference);
 		
 		//Product
-		int product=a*b;
+		double product=a*b;
 		System.out.println("Product : " + product);
 		
 		
 		// Avg of values
-		int avg=sum/2;
+		double avg=sum/2;
 		System.out.println("Average:" +avg);
+		
 		//Avg of distance
-		int distance=a-b;
+		double distance;
+		if (a>b) {
+		 distance=a-b;
+		} else {
+			distance = b-a;
+		}
 		System.out.println("Distance:"+distance);
 		//Max and Min Number
 		if (a>b) 
@@ -54,6 +58,7 @@ public class Sum_diff_avg {
 				System.out.println("Min:" + b);
 				
 		}
+		
 		
 	
 		
