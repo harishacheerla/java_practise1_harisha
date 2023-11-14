@@ -1,12 +1,18 @@
 package mylearning;
 
-public class Square_cube_forthpower {
+import java.util.Scanner;
+public class Square_cube_forthpower
+{
+public static void main(String[] args)
+{
+    Scanner in = new Scanner(System.in);
+    System.out.println("Input the value:");
+    double val = in.nextDouble();
 
-	public static void main(String[] args) {
-		int input=2;
-		int square=2*2;
-		int cube=2*2*2;
-
-	}
-
+    System.out.printf("square:",Math.pow(val, 2));
+    //System.out.printf("Cube: ", Math.pow(val, 3));
+    //System.out.printf("Fourth power:", Math.pow(val, 4));
 }
+}
+
+
