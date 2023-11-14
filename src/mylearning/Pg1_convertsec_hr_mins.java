@@ -1,4 +1,6 @@
 package mylearning;
+//Write a Java program to convert seconds to hour, minute and seconds
+
 
 public class Pg1_convertsec_hr_mins {
 
