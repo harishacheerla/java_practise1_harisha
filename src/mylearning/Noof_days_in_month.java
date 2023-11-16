@@ -6,50 +6,50 @@ public class Noof_days_in_month {
 
 	public static void main(String[] args) {
 		 Scanner obj = new Scanner(System.in);
-	        System.out.print("Enter Month:");
+	        System.out.println("Enter Month:");
 	        int month = obj.nextInt();
 	        int Days=0;
 	        if(month==1) {
 	        	Days=31;
-	        	System.out.print("January:"+Days+"days");
+	        	System.out.println("January:"+Days+"days");
 	        }else if(month==2) {
 	        	Days=28;
-	        	System.out.print("Feb:"+Days+"days");
+	        	System.out.println("Feb:"+Days+"days");
 	        } else if(month==3) {
 	        	Days=30;
-	        	System.out.print("March:"+Days+"days");
+	        	System.out.println("March:"+Days+"days");
 	        }else if(month==4) {
 	        	Days=30;
-	        	System.out.print("April:"+Days+"days");
+	        	System.out.println("April:"+Days+"days");
 	        }else if(month==5) {
 	        	Days=31;
-	        	System.out.print("May:"+Days+"days");
+	        	System.out.println("May:"+Days+"days");
 	        } else if(month==6) {
 	        	Days=30;
-	        	 System.out.print("June:"+Days+"days");
+	        	 System.out.println("June:"+Days+"days");
 	        }  else if(month==7) {
 	        	Days=31;
-	        	System.out.print("July:"+Days+"days");
+	        	System.out.println("July:"+Days+"days");
 	        }
 	        else if(month==8) {
 	        	Days=31;
-	        	System.out.print("Aug:"+Days+"days");
+	        	System.out.println("Aug:"+Days+"days");
 
 	        }else if(month==9) {
 	        	Days=30;
-	        	System.out.print("Sep:"+Days+"days");
+	        	System.out.println("Sep:"+Days+"days");
 	        }
 	        else if(month==10) {
 	        	Days=31;
-	        	System.out.print("Oct:"+Days+"days");
+	        	System.out.println("Oct:"+Days+"days");
 	        }
 	        else if(month==11) {
 	        	Days=30;
-	        	System.out.print("Nov:"+Days+"days");
+	        	System.out.println("Nov:"+Days+"days");
 	        }
 	       	else if(month==12) {
 	       		Days=31;
-	        	System.out.print("Dec:"+Days+"days");
+	        	System.out.println("Dec:"+Days+"days");
 	        }
 	       	else {
 	            System.out.println("Invalid month");
