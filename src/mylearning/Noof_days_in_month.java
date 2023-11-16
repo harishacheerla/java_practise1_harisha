@@ -52,7 +52,7 @@ public class Noof_days_in_month {
 	        	System.out.print("Dec:"+Days+"days");
 	        }
 	       	else {
-	            System.out.println("Invalid month. Please enter a valid month between 1 and 12");
+	            System.out.println("Invalid month");
 	}
 
 }
