@@ -3,8 +3,9 @@ package mylearning;
 import java.util.Scanner;
 //program to print numbers between 1 to 100 which are divisible by 3, 5 and by both
 public class NumbersBetween1to100 {
-
-	public static void main(String[] args) {
+	
+@org.testng.annotations.Test
+	public  void Test() {
 		//Scanner obj1 = new Scanner(System.in);
         //System.out.println("Enter numbers between 1 to 100:");
         //int num1=obj1.nextInt();
