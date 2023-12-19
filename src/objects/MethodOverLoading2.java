@@ -11,15 +11,15 @@ public class MethodOverLoading2 {
 	class caliculator2
 	{
 		static float sum2(float a , float b) {
-			System.out.println("sum1");
+			System.out.println("sum- method1");
 			float c = a+b;
 			return c;
 		}
 		
-		static double sum2(int i , int j,int c)
+		static double sum2(int a , int b,int c)
 		{
-			System.out.println("sum2");
-			double k = i+j;
+			System.out.println("sum -Method2 ");
+			double k = a+b+c;
 			return k;
 
 }
