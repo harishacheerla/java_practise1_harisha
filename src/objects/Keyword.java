@@ -2,7 +2,7 @@ package objects;
 
 public class Keyword {
 
-	   static String name="Ashith ";
+	   static String name="Ashith vola ";
 	   static int age=8;
 
 	    public Keyword(String name, int age) {
