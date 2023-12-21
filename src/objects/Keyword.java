@@ -2,8 +2,8 @@ package objects;
 
 public class Keyword {
 
-	   static String name="Harisha ";
-	   static int age=32;
+	   static String name="Ashith ";
+	   static int age=8;
 
 	    public Keyword(String name, int age) {
 	    	 System.out.println("local variable:"+name + age); 
