@@ -8,7 +8,7 @@ public class StaticandNonstatic {
 	    public static void main(String args[]) {
 	    	StaticandNonstatic s= new StaticandNonstatic();
 	        s.add(10,20);
-	        int result=s.pssitiveornegative();
+	        int result=s.pssitiveOrNegative();
 	    }
 
 	    public void add(int x ,int y) {
@@ -18,7 +18,7 @@ public class StaticandNonstatic {
 	        System.out.println("addition " + c);
 	    }
 	    //Non parameterized method
-	  public int pssitiveornegative() {
+	  public int pssitiveOrNegative() {
 	    	int number=-1;
 	    		
 	    		if(number>0) {

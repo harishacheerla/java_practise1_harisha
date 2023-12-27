@@ -1,6 +1,6 @@
 package objects;
 
-public class Returntype {
+public class ReturnType {
 
 	public static void main(String[] args) {
 	   method1.checkAge(10);
